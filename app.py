@@ -19,7 +19,8 @@ if __name__=="__main__":
 
 ##------------ClearAll()------------
 def clearAll(): #BRIŠE SVE U /STATIC/NOTE. PRIPREMA PROGRAM ZA RAD.
-    poz='/static/note'
+    print(os.path)
+    poz='static/note'
     for f in os.listdir(poz):
         os.remove(os.path.join(poz,f))
 
